@@ -1,0 +1,10 @@
+1、创建一个基于maven,spring boot的java web项目
+2、项目包含web,service,dal,common 四个module
+3、项目上传到自己的github仓库
+4、指定应用名为：school-recruitment-interview, 端口号为：6666
+5、创建/oauth/login,/oauth/logout接口，分别返回登录成功，登出成功信息
+6、创建/user/{username}接口，返回输入的username
+7、自定义过滤器，非指定的用户，未登录时需要先登录，才能访问信息。白名单用户，可以不登录直接访问/user/{username}等路径，/oauth/*等除外
+8、自定义拦截器，记录每次输入的路径和参数，记录到控制台
+9、自定义统一异常
+
